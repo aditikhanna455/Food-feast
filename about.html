@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}#footer {
+		padding: 4em 0 2em 0;
+		background-color: #1b1b1f;
+		text-align: center;
+	}
+		#footer .inner {
+			width: 50%;
+			margin: 0 auto;
+		}
+#contact {
+  top: 300px;
+  background-color: #555
+}
+	body {
+  background-image: url("bgbg1.jpg");
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+	.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #70c7be;
+  color: white;
+}#banner {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		padding: 8em 4em 6em 4em;
+		min-height: 70vh;
+		background-image: url("banner.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-top: 0;
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+	}
+		#banner .inner {
+			text-align: center;
+			position: relative;
+			z-index: 2;
+		}
+		#banner h1 {
+			color: #fff;
+			font-size: 5em;
+			font-weight: 400;
+			font-family: 'Passion One', cursive;
+			margin: 0;
+		}
+		#banner p {
+			color: rgba(255, 255, 255, 0.85);
+			font-size: 1.5em;
+			font-weight: 300;
+		}
+		
+		#banner:before {
+			-moz-transition: opacity 3s ease;
+			-webkit-transition: opacity 3s ease;
+			-ms-transition: opacity 3s ease;
+			transition: opacity 3s ease;
+			-moz-transition-delay: 1s;
+			-webkit-transition-delay: 1s;
+			-ms-transition-delay: 1s;
+			transition-delay: 1s;
+			content: '';
+			background-color: #42424f;
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.45;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+		body.is-loading #banner:before {
+			opacity: 1;
+		}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+
+  float: left;
+  width: 100%;
+  padding: 100px;
+}
+.column:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  transition: 0.3s;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the buttons */
+
+
+</style>
+</head>
+	<body id="top">
+		<section id="banner" data-video="banner">
+					<div class="inner">
+						<header>
+							<p style="font-size: 100px;"><b>About us</b></p></header>
+					</div>
+				</section>
+	<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="recipe.html">Recipes</a>
+  
+  <a href="about,html">About</a><a href="contact.html">Contact</a>
+</div>
+
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Our Mission</h2>
+    <p>Food Feast is a platform for everyone out there to reborn the chef inside them.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Our Essence</h2>
+    <p>Food Feast is dedicated to deliver all the things you need at your doorstep as soon as possible .</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#ccc;">
+    <h2>Our Promise</h2>
+    <p>Food Feast promises its customer to deliver best quality food ranging from handpicked vegetables to world's best spices.</p>
+  </div>
+  
+</div>
+<footer id="footer">
+					<div class="inner">
+						<h2 style="color: white">Cook lil, Quick fulfil.</h2>
+						<p style="color: white ""font-size:20px " >The best thing about trying these indulgent dishes at home is that you can prepare it without putting in much efforts. You just need a few Know More in place and you are good to go!</p>
+						<h3 style="color: white">Contact us @ 99990-88880</h3>
+<!--
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+-->	
+					</div>
+				</footer>
+
+
+</body>
+</html>
+
